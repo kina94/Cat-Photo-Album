@@ -14,8 +14,8 @@
 * promise, fetch, await, async</br>
 * API 살펴보기</br>
   ### 2) 로직</br>
-* 렌더링 순서</br>
-* 폴더 구조</br>
+* 렌더링 순서 설계</br>
+* 폴더 구조 </br>
   ### 3) 구현</br>
 * api.js</br>
 * BreadCrumb.js</br>
