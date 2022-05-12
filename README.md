@@ -9,14 +9,14 @@
 <hr/>
 
 ## <a href='https://velog.io/@kina/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EA%B3%BC%EC%A0%9C%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B3%A0%EC%96%91%EC%9D%B4-%EC%82%AC%EC%A7%84%EC%B2%A9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98'>구현 과정🍰</a>
-  ### 1) 선행 지식</br>
+### 1) 선행 지식</br>
 * 컴포넌트 추상화</br>
 * promise, fetch, await, async</br>
 * API 살펴보기</br>
-  ### 2) 로직</br>
+### 2) 로직</br>
 * 렌더링 순서 설계</br>
 * 폴더 구조 </br>
-  ### 3) 구현</br>
+### 3) 구현</br>
 * api.js</br>
 * BreadCrumb.js</br>
 * Nodes.js</br>
@@ -24,4 +24,4 @@
 * Loading.js</br>
 * index.js</br>
 * App.js</br>
-  ### 4) CSS 보완</br>
+### 4) CSS 보완</br>
