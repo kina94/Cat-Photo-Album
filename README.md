@@ -13,3 +13,15 @@
 * 컴포넌트 추상화</br>
 * promise, fetch, await, async</br>
 * API 살펴보기</br>
+  ### 2) 로직</br>
+* 렌더링 순서</br>
+* 폴더 구조c</br>
+  ### 3) 구현</br>
+* api.js</br>
+* BreadCrumb.js</br>
+* Nodes.js</br>
+* ImageView.js</br>
+* Loading.js</br>
+* index.js</br>
+* App.js</br>
+  ### 4) CSS 보완</br>
