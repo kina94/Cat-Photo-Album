@@ -15,7 +15,7 @@
 ### 2) 로직</br>
 * 렌더링 순서 설계</br>
 * 폴더 구조 </br>
-### 3) 구현</br>https://github.com/kina94/Cat-Photo-Album/blob/main/note/6.%20App%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md
+### 3) 구현</br>
 * api.js
   * <a href='https://github.com/kina94/Cat-Photo-Album/blob/main/note/1.%20API%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md'>요구사항 정의와 구현 코드</a>
 * BreadCrumb.js
