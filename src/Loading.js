@@ -14,6 +14,7 @@ export default function Loading ({$app, initState}){
         this.$target.innerHTML = `
         <div class='content'>
         <img src='./assets/nyan-cat.gif'/>
+        <p>Loading...</p>
         </div>
         `
 

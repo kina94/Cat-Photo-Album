@@ -16,7 +16,7 @@ export default function BreadCrumb ({$app, initState, onClick}){
         ${
             this.state ? 
             this.state.map((node, index) => {
-                return `<div id=${index}>${node.name}</div>`
+                return `<div id=${index}>&nbsp;${node.name}</div>`
             }).join('') : ''
         }
         `

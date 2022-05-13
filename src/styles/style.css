@@ -1,22 +1,40 @@
 * {
     box-sizing: border-box;
+    font-family: 'Dongle', sans-serif;
   }
   
   body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eee;
+    background-color: #white;
     flex-direction: column;
+    margin:0;
+    height:100vh;
+  }
+
+  .title{
+    display:flex;
+    font-size:72px;
+    font-weight:700;
+    color : #2c2c2c;
+    margin:0;
+  }
+
+  .title img{
+    width:140px;
+    height:95px;
   }
   
   .app {
-    border: 1px solid #ccc;
-    background-color: #fff;
-    border-radius: 5px;
+    border: 25px solid #f2b904;
+    background-color: white;
+    border-radius: 10px;
     width: 800px;
     height: 600px;
+    font-size:28px;
   }
+
   
   .Nodes {
     display: flex;
@@ -29,27 +47,33 @@
     width: 140px;
     min-height: 150px;
     padding: 12px;
-    margin: 8px;
+    margin: 8px 20px 8px 23px;
     text-align: center;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     word-break: keep-all;
+    cursor:pointer;
+  }
+
+  .Node .icon{
+    font-size:60px;
   }
   
   .Breadcrumb {
+    background-color:#FFFCF2;
     height: 62px;
-    padding: 16px;
-    border-bottom: 1px solid #ccc;
+    padding: 10px 0 0px 20px;
+    border-bottom: 1px solid #F1F1F1;
     display: flex;
     flex-direction: row;
+    font-size: 35px;
+    font-weight:bold;
   }
-  
-  .Breadcrumb > div {
-    padding: 4px;
-  }
+
   
   .Breadcrumb > div::after {
-    content: " -";
+    content: " > ";
   }
   
   .Breadcrumb > div:last-child::after {
@@ -63,7 +87,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
   }
   
   .Modal > div {
@@ -71,5 +95,15 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .content{
+    text-align: center;
+  }
+
+  .content p{
+    margin:0;
+    font-size:60px;
+    font-weight:700;
   }
   
