@@ -4,6 +4,8 @@ const IMG_URL = 'https://fe-dev-matching-2021-03-serverlessdeploymentbuck-t3kpj3
 
 export default function ImageView({$app, initState, modalToggle}){
     this.state = initState
+    this.modalToggle = modalToggle
+    
     this.setState = (nextState) =>{
         this.state =nextState
         this.render()
@@ -16,11 +18,12 @@ export default function ImageView({$app, initState, modalToggle}){
     this.render = () =>{
         this.$target.innerHTML =
         `<div class='content'>
-        <img src=${IMG_URL}${this.state.filePath}></img>
+        ${
+            this.state.filePath ? `<img src=${IMG_URL}${this.state.filePath}></img>` : ''
+        }
         </div>`
 
-        this.state.modalToggle ?
-        this.$target.style.display = 'block' : this.$target.style.display = 'none'
+        this.$target.style.display = this.state.modalToggle ? 'block' : 'none'
     }
 
     const handleModalToggle = () =>{
