@@ -14,7 +14,7 @@ export default function Nodes({ $app, initState, onClick, onClickBack }) {
     this.render = () => {
         // 노드 타입에 따른 이미지 로드
         const imgType = (type) => type === 'DIRECTORY' ? './assets/folder.gif' : './assets/image.gif'
-        
+
         // 노드 보여주기
         const showNode =
             this.state.nodes.map(node => {
@@ -32,16 +32,18 @@ export default function Nodes({ $app, initState, onClick, onClickBack }) {
                 ${showNode}`
     }
 
-    this.$target.addEventListener('click', (e)=>{
-        const nodeId = e.target.closest('.Node').id
-        const selectedNode = this.state.nodes.find(node=>node.id===nodeId)
-
-        if(selectedNode){
-            onClick(selectedNode)
-        } else {
-            onClickBack()
+    this.$target.addEventListener('click', (e) => {
+        try {
+            const nodeId = e.target.closest('.Node').id
+            const selectedNode = this.state.nodes.find(node => node.id === nodeId)
+            if (selectedNode) {
+                onClick(selectedNode)
+            } else {
+                onClickBack()
+            }
+        } catch (e) {
+            return
         }
-
     })
 
     this.render()
