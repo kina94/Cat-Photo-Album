@@ -21,6 +21,8 @@
 * BreadCrumb.js
   * <a href='https://github.com/kina94/Cat-Photo-Album/blob/main/note/2.%20BreadCrumb%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md'>요구사항 정의와 구현 코드</a>
 * Nodes.js
+  * <a href='https://github.com/kina94/Cat-Photo-Album/blob/main/note/3.%20Nodes%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md
+'>요구사항 정의와 구현 코드</a>
 * ImageView.js
 * Loading.js
 * index.js
