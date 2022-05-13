@@ -27,6 +27,8 @@
   * <a href='https://github.com/kina94/Cat-Photo-Album/blob/main/note/4.%20ImageView%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md
 '>요구사항 정의와 구현 코드</a>
 * Loading.js
+  * <a href='https://github.com/kina94/Cat-Photo-Album/blob/main/note/5.%20Loading%20%EA%B4%80%EB%A0%A8%20%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD.md
+'>요구사항 정의와 구현 코드</a>
 * index.js
 * App.js
 ### 4) CSS 보완</br>
