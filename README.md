@@ -1,6 +1,6 @@
 <div align="center">
   <h1> 📷 프로그래머스 고양이 사진첩 애플리케이션 (Vainlia JS) </h1>
-본 레포에는 <a href='https://programmers.co.kr/skill_check_assignments/100'>2021 Dev-Matching: 웹 프론트엔드 개발자(상반기)'</a> 문제 풀이 후 복기한 결과물을 담았습니다.</br>Vanilia JS로만 구현하였으며, 복기를 통해 주요 구현 과정과 개념을 정리하고 코드와 CSS를 다듬었습니다. </br></br>
+본 레포에는 <a href='https://programmers.co.kr/skill_check_assignments/100'>2021 Dev-Matching: 웹 프론트엔드 개발자(상반기)'</a> 문제 풀이 후 복기한 결과물을 담았습니다.</br>어떠하 라이브러리도 사용하지 않고 Vanilia JS로만 구현하였으며, 복기를 통해 주요 구현 과정, 개념, 코드를 정리하고 CSS를 커스터마이징했습니다. </br></br>
 
 <a href='https://vanilajs-cat-album.netlify.app/'>바로가기</a>
 
