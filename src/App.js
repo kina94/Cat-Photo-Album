@@ -130,6 +130,5 @@ export default function App($app) {
         })
         cache.rootNodes = rootNodes
     }
-
     init()
 }
