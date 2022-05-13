@@ -7,7 +7,7 @@ export const api = async(nodeId) =>{
     try{
         const respose = await fetch(`${API_URL}/${nodeId ? nodeId : ''}`)
         if(!respose.ok) throw new Error('서버 통신에 문제가 있습니다. 다시 시도해주세요.')
-        return await response.json()
+        return await respose.json()
     } catch(e){
         throw new Error(`문제가 발생했습니다. ${e.message}`)
     }
