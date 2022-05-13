@@ -1,4 +1,4 @@
-export default function BreadCrumb ({$app, initState}){
+export default function BreadCrumb ({$app, initState, onClick}){
     this.state = initState
     this.setState = (nextState) => {
         this.state = nextState
@@ -21,6 +21,11 @@ export default function BreadCrumb ({$app, initState}){
         }
         `
     }
+
+    this.$target.addEventListener('click', (e)=>{
+        const nodeIndex = e.target.id
+        onClick(nodeIndex)
+    })
 
     this.render()
  }
