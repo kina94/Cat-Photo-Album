@@ -1,4 +1,4 @@
-export default function Nodes({ $app, initState, onClick }) {
+export default function Nodes({ $app, initState, onClick, onClickBack }) {
     this.state = initState
     this.onClick = onClick
 
@@ -28,14 +28,20 @@ export default function Nodes({ $app, initState, onClick }) {
         // 루트 노드이면 노드만 보여주고, 하위 경로가 있으면 뒤로 가기 보여주기
         this.$target.innerHTML =
             `${this.state.depth.length != 0 ?
-                `<div>뒤로 가기</div>` : ''}
+                `<div class='Node' id='-1'>뒤로 가기</div>` : ''}
                 ${showNode}`
     }
 
     this.$target.addEventListener('click', (e)=>{
         const nodeId = e.target.closest('.Node').id
         const selectedNode = this.state.nodes.find(node=>node.id===nodeId)
-        onClick(selectedNode) // 선택된 node 전달
+
+        if(selectedNode){
+            onClick(selectedNode)
+        } else {
+            onClickBack()
+        }
+
     })
 
     this.render()
